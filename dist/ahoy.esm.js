@@ -416,6 +416,11 @@ ahoy.resetVisitId = function () {
   return true;
 };
 
+ahoy.createVisit = function () {
+  createVisit();
+  return true;
+};
+
 ahoy.debug = function (enabled) {
   if (enabled === false) {
     destroyCookie("ahoy_debug");
